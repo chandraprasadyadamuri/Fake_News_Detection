@@ -1,0 +1,37 @@
+====================================================================
+PROJECT DATASET SOURCE & DOWNLOAD INSTRUCTIONS
+====================================================================
+
+Project Name: Fake News Detection System
+Dataset Name: ISOT Fake News Dataset
+Source Platform: Kaggle
+
+Official Download Link:
+👉 https://www.kaggle.com/datasets/csmalarkodi/isot-fake-news-dataset
+
+--------------------------------------------------------------------
+STEP-BY-STEP DOWNLOAD & SETUP INSTRUCTIONS:
+--------------------------------------------------------------------
+
+1. Open your web browser and navigate to the link above.
+2. Log in to your Kaggle account (or sign up for a free account if 
+   you do not have one).
+3. Click the blue "Download" button located on the top-right corner 
+   of the dataset header to fetch the archive.
+4. Locate the downloaded file on your local machine (typically saved 
+   as a compressed 'archive.zip' file).
+5. Extract the contents of the ZIP folder. You will find two core files:
+   - Fake.csv
+   - True.csv
+6. Move or copy both 'Fake.csv' and 'True.csv' directly into your 
+   main 'Fake_News_Detection' root project folder next to your 
+   development notebook ('main.ipynb').
+
+--------------------------------------------------------------------
+DATASET ARCHITECTURE SPECIFICATIONS:
+--------------------------------------------------------------------
+- Total Sample Columns: title, text, subject, date
+- Targets Handled:
+  * Fake.csv -> Mapped internally to Target Label: 1
+  * True.csv -> Mapped internally to Target Label: 0
+====================================================================
